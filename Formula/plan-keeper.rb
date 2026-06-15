@@ -6,8 +6,8 @@ class PlanKeeper < Formula
   # Built from the wild-horses repo at a `plan-keeper-v*` tag. The CLI source is
   # a single, zero-dependency stdlib module (the plan-keeper plugin's backend);
   # this formula packages that same file as the `plan-keeper` binary.
-  url "https://github.com/paulbaranowski/wild-horses/archive/refs/tags/plan-keeper-v6.8.0.tar.gz"
-  sha256 "101f94b820d70f1f97d6d9b1fa7dd77eedc72acac9d487cc37f5bac527cbbafd"
+  url "https://github.com/paulbaranowski/wild-horses/archive/refs/tags/plan-keeper-v6.9.0.tar.gz"
+  sha256 "6174e0792a32f27d262eae6da5475ce15543f015a1026a0c555b49d74f8d32f8"
   license "MIT"
 
   depends_on "python@3.12"
