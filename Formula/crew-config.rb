@@ -5,8 +5,8 @@ class CrewConfig < Formula
   # ink/react/cosmiconfig/@clipboard-health/groundcrew as runtime imports, so the
   # formula builds at install time and ships a pruned production node_modules
   # beside dist — not just dist/cli.js.
-  url "https://github.com/paulbaranowski/groundcrew-config/archive/refs/tags/v1.7.0.tar.gz"
-  sha256 "4d464e5043cd4680e8008e11a2d5eec2b1513737c4992818a79f7348b82dee90"
+  url "https://github.com/paulbaranowski/groundcrew-config/archive/refs/tags/v1.7.1.tar.gz"
+  sha256 "1886a222b0f812a02e6db971ca0bd149a9cf9b6ff1f1c116b0cc2da5624da542"
   license "MIT"
 
   depends_on "node"
